@@ -15,7 +15,7 @@
     display: inline-block;
     color: var(--black);
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
     overflow: hidden;
     cursor: pointer;
     transition: filter 0.3s;
