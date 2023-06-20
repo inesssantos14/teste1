@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Glue</title>
+
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <div class="menu">
+    <nav class="container-menu">
+      <ul>
+        <li><a href="index.html"><img src="assets/logo.png"></a></li>
+        <li><a class="btn" href="comunidade.html">Comunidade</a></li>
+        <li><a class="btn" href="sobre.html">Sobre</a></li>
+        <li><a href="#"><i class="fa-solid fa-user fa-2xl" onclick="openForm()"></i></a></li>
+        
+      </ul>
+
+    
+      <div class="form-popup" id="myForm">
+        <form class="form-container">
+          <i class="end fa-solid fa-xmark fa-2xl" onclick="closeForm()"></i>
+              <i class=" fa-solid fa-user fa-2xl"></i>
+              <h1>Login</h1>
+              
+          <div class="email">
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Escreve o teu E-mail" name="email" required>
+        </div>
+      <div class="pass">
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Escreve a tua Password" name="psw" required>
+        </div>
+          <button type="submit" class="btn">Iniciar Sessão</button>
+          
+        </form>
+      </div>
+    </nav>
+  </div>
+
+  <section class="container-album">
+    <h1 class="album-title">Génesis</h1>
+    <div class="album">
+      <div><img src="assets/genesis.png"></div>
+      
+      <div class="music">
+          <i class="fa-brands fa-spotify fa-2xl"></i>
+          <p>Música Associada</p>
+      </div>
+  </div>
+  <div class="car">
+    <div class="center">
+      <div class="caroussel">
+      
+          <div class="slides">
+            <div id="slide-1">
+              1 <img src="  ">
+            </div>
+            <div id="slide-2">
+              2 <img src="  ">
+            </div>
+            <div id="slide-3">
+              3 <img src="  ">
+            </div>
+            <div id="slide-4">
+              4 <img src="  ">
+            </div>
+            <div id="slide-5">
+              5 <img src="  ">
+            </div>
+          </div>
+
+    
+          <a href="#slide-1">1</a>
+          <a href="#slide-2">2</a>
+          <a href="#slide-3">3</a>
+          <a href="#slide-4">4</a>
+          <a href="#slide-5">5</a>
+          
+      </div>
+    </div>
+    <div class="data">
+        <p>ABRIL 2023</p>
+        <p>DATA DE PUBLICAÇÃO</p>
+        <p>@joanagomes</p>
+    </div>
+  </div>
+  </section>
+
+  <section class="container-album">
+    <h1 class="outros-title">Outros álbuns</h1>
+    <article class="album1">
+        <div class="square">
+            <img src="assets/fragmentos.png">
+        </div>
+        <div>
+            <p>20-27 FEVEREIRO 2022</p>
+            <p>Fragmentos</p>
+            <p>@josetavares_<p>
+        </div>
+        <div>
+            
+            <a class="btn" href="fragmentos.html">Explorar este álbum</a>
+        </div>
+    </article>
+    <article class="album2">
+        <div class="square">
+            <img src="assets/ultimamente.png">
+        </div>
+        <div>
+            <p>JUNHO 2023</p>
+            <p>Ultimamente</p>
+            <p>@susanasantos<p>
+        </div>
+        <div>
+            
+            <a class="btn" href="ultimamente.html">Explorar este álbum</a>
+        </div>
+    </article>
+    <article class="album3">
+        <div class="square">
+            <img src="assets/eterno.png">
+        </div>
+        <div>
+            <p>ANUAL 2022</p>
+            <p>Eterno</p>
+            <p>@inesserafim<p>
+        </div>
+        <div>
+           
+            <a class="btn" href="eterno.html">Explorar este álbum</a>
+        </div>
+    </article>
+  </section>
+
+<footer>
+  <div class="left">
+    <a href="."><img src="assets/logo.png"></a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    <br>
+    <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
+    <a href="#"><i class="fa-brands fa-pinterest-p fa-xl"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter fa-xl"></i></a>
+  </div>
+
+  <div class="right form">
+      <p class="title">Subscreve a nossa newsletter para estar a par de todas as novidades!</p>
+
+      <form>
+          <input type="text" placeholder="Escreve o teu e-mail" name="email">
+          
+          <ul class="errors"></ul>
+
+          <br>
+
+          <button type="submit" class="btn">Subscrever</button>
+      </form>
+
+  </div>
+  <div class="credit">
+    <p class="copy">&copy; 2023 Inês Santos & Susana Ramos. All Rights Reserved</p>
+  </div>
+  
+</footer>
+<script src="scripts/app.js"></script>
+
+</body>
+</html>

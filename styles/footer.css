@@ -1,0 +1,72 @@
+footer {
+    background-color: var(--pink);
+    width: 100%;
+    font-size: 1rem;
+    font-family: Nunito;
+    padding: 4rem 4rem 1rem 4rem;
+    color: var(--black);
+}
+footer img{
+    width: 100px;
+    border-radius: 0;
+}
+
+footer img:hover{
+    width: 100px;
+    border-radius: 0;
+    filter: invert(1) ;
+}
+
+footer .form {
+    width: 60%;
+    margin: 2rem;
+}
+footer form input {
+    width: 75%;
+    display: flex;
+    background-color: var(--white);
+    border-radius: 10px;
+    border: 1px solid var(--black);
+    padding: 0.625rem;
+    font-size: 1rem;
+    color: var(--black);
+    font-family: Nunito;
+}
+
+footer i{
+    margin-right:3rem;
+}
+
+footer i:hover{
+    filter: invert(1);
+}
+
+footer button{
+    margin-top: 1rem;
+}
+footer .copy{
+    margin: 3rem;
+    text-align: center;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 80% 20%;
+    justify-content: center;
+}
+
+footer .left {
+    grid-column: 1 / span 1;
+}
+
+footer .right {
+    grid-column: 2 / span 1;
+}
+
+footer .credit {
+    grid-row: 2;
+    grid-column: 1 / span 2;
+    font-size: smaller;
+}
+

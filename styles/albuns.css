@@ -1,0 +1,57 @@
+.album-title{
+    margin: 70px 0 50px 0;
+}
+
+.album img{
+    width: 450px;
+}
+
+.album .music{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 50px 0 50px 100px
+}
+
+.album .music i{
+    margin-top: 17px;
+}
+
+.album .music p{
+    margin-left: 15px;
+    font-size: 1.5rem;
+}
+
+
+.data{
+    margin-top: 20px;
+    margin-left: 175px;
+}
+
+.outros-title{
+    margin-bottom: 50px;
+}
+
+.album1 img, .album2 img, .album3 img{
+   width: 250px;
+
+}
+
+.album1 .btn, .album2 .btn, .album3 .btn{
+    margin-top: 50px;
+ }
+
+ .square{
+    width: 260px;
+    height: 220px;
+    border-radius: 15px;
+    background-color: var(--white);
+    padding:0.5rem;
+    display: flex;
+    margin-bottom: 30px;
+   
+ }
+
+ .square img{
+    object-fit: cover;
+    align-self: center;
+ }

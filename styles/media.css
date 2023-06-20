@@ -1,0 +1,24 @@
+img {
+    width: 35%;
+    border-radius: 30px;
+   }
+   
+video {
+    width: 55%;
+    border-radius: 30px;
+ }
+
+ .img-colagem {
+    width: 90%;
+ }
+
+ .tape {
+    width: 35rem;
+    height: 35rem;
+    object-fit: cover;
+ }
+
+
+.image-big {
+    width: 35rem;
+}

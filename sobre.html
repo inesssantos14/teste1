@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Glue</title>
+
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <div class="menu">
+    <nav class="container-menu">
+      <ul>
+        <li><a href="index.html"><img src="assets/logo.png"></a></li>
+        <li><a class="btn" href="comunidade.html">Comunidade</a></li>
+        <li><a class="btn placed" href="sobre.html">Sobre</a></li>
+        <li><a href="#"><i class="fa-solid fa-user fa-2xl" onclick="openForm()"></i></a></li>
+        
+      </ul>
+
+    
+      <div class="form-popup" id="myForm">
+        <form class="form-container">
+          <i class="end fa-solid fa-xmark fa-2xl" onclick="closeForm()"></i>
+              <i class=" fa-solid fa-user fa-2xl"></i>
+              <h1>Login</h1>
+
+          <div class="email">
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Escreve o teu E-mail" name="email" required>
+        </div>
+      <div class="pass">
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Escreve a tua Password" name="psw" required>
+        </div>
+          <button type="submit" class="btn">Iniciar Sessão</button>
+          
+        </form>
+      </div>
+    </nav>
+  </div>
+
+  <header>
+    <div class="container-sobre">
+      <div class="quem-somos">
+        <h1>Quem somos</h1>
+        <h5>Descrição do conceito</h5>
+      </div>
+      <div>
+        <img class="video tape" src="assets/fitacola.png"></img>
+      </div>
+    </div>
+  </header>
+  <section class="container-sobre">
+    <div class="timeline">
+      <ul class="timeline">
+          <li>
+              <span class="title">Nascimento da Glue</span>
+              <span class="date">FEVEREIRO 2023</span>
+              <span class="text">De uma ideia nasceu o nosso conceito</span>
+          </li>
+          <li>
+              <span class="title">Surgimento da marca</span>
+              <span class="date">MARÇO 2023</span>
+              <span class="text">Criação da nossa identidade visual</span>
+          </li>
+          <li>
+              <span class="title">APP e Website</span>
+              <span class="date">JUNHO 2023</span>
+              <span class="text">A Glue é apresentada ao mundo e para o futuro</span>
+          </li>
+    </ul>
+    </div>
+    <div class="brandkit">
+        <img class="image-big" src="assets/app.png">
+    </div>
+    </section>
+
+    <section class="container-sobre">
+        <div class="questions">
+          <button class="accordion">Pergunta 1</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eum voluptatem voluptates possimus aliquam earum ipsa repellendus reiciendis cum, facilis iusto. Nemo sequi itaque aperiam voluptatibus tempore facilis amet cupiditate!</p>
+            </div>
+
+          <button class="accordion">Pergunta 2</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eum voluptatem voluptates possimus aliquam earum ipsa repellendus reiciendis cum, facilis iusto. Nemo sequi itaque aperiam voluptatibus tempore facilis amet cupiditate!</p>
+            </div>
+
+          <button class="accordion">Pergunta 3</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eum voluptatem voluptates possimus aliquam earum ipsa repellendus reiciendis cum, facilis iusto. Nemo sequi itaque aperiam voluptatibus tempore facilis amet cupiditate!</p>
+            </div>
+          
+          <button class="accordion">Pergunta 4</button>
+            <div class="panel">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eum voluptatem voluptates possimus aliquam earum ipsa repellendus reiciendis cum, facilis iusto. Nemo sequi itaque aperiam voluptatibus tempore facilis amet cupiditate!</p>
+            </div>
+
+        </div>
+        <div class="envelope circular">
+            <img src="assets/envelope.png">
+        </div>
+    </section>
+
+  </section>
+  <footer>
+    <div class="left">
+      <a href="."><img src="assets/logo.png"></a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      <br>
+      <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
+      <a href="#"><i class="fa-brands fa-pinterest-p fa-xl"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter fa-xl"></i></a>
+    </div>
+
+    <div class="right form">
+        <p class="title">Subscreve a nossa newsletter para estar a par de todas as novidades!</p>
+
+        <form>
+            <input type="text" placeholder="Escreve o teu e-mail" name="email">
+            
+            <ul class="errors"></ul>
+
+            <br>
+
+            <button type="submit" class="btn">Subscrever</button>
+        </form>
+  
+    </div>
+    <div class="credit">
+      <p class="copy">&copy; 2023 Inês Santos & Susana Ramos. All Rights Reserved</p>
+    </div>
+    
+  </footer>
+  <script src="scripts/app.js"></script>
+
+</body>
+</html>

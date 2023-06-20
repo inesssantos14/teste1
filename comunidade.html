@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Site Glue</title>
+
+      <link rel="stylesheet" href="styles/main.css">
+    </head>
+
+    <body>
+      <div class="menu">
+        <nav class="container-menu">
+          <ul>
+            <li><a href="index.html"><img src="assets/logo.png"></a></li>
+            <li><a class="btn placed" href="comunidade.html">Comunidade</a></li>
+            <li><a class="btn" href="sobre.html">Sobre</a></li>
+            <li><a href="#"><i class="fa-solid fa-user fa-2xl" onclick="openForm()"></i></a></li>
+            
+          </ul>
+
+        
+          <div class="form-popup" id="myForm">
+            <form class="form-container">
+              <i class="end fa-solid fa-xmark fa-2xl" onclick="closeForm()"></i>
+              <i class=" fa-solid fa-user fa-2xl"></i>
+              <h1>Login</h1>
+
+              <div class="email">
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Escreve o teu E-mail" name="email" required>
+            </div>
+          <div class="pass">
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Escreve a tua Password" name="psw" required>
+            </div>
+              <button type="submit" class="btn">Iniciar Sessão</button>
+              
+            </form>
+          </div>
+        </nav>
+      </div>
+    
+            <div class="container-comunidade">
+              <div class="page-title">
+                <h1>Comunidade</h1> </div>
+              <div class="page-title"></div>
+                <p>Um olhar sobre algumas das memórias mais marcantes dos nossos viajantes no tempo.</p>
+              </div>
+            </div>
+
+            <section>
+              <article class="container-comunidade">
+                  <div class="colagem-1">
+                      <img class="img-colagem" src="assets/genesis.png">
+                  </div>
+                  <div class="info-1">
+                      <p>DATA DE PUBLICAÇÃO</p>
+                      <p>@joanagomes</p>
+                      <p>ABRIL 2023<p>
+                  </div>
+                  <div class="name-1">
+                      <h1>Génesis</h1>
+                      <br>
+                      <a class="btn" href="genesis.html">Explorar este álbum</a>
+                  </div>
+              </article>
+              <article class="container-comunidade">
+                  <div class="colagem-2">
+                      <img class="img-colagem" src="assets/fragmentos.png">
+                  </div>
+                  <div class="info-2">
+                      <p>DATA DE PUBLICAÇÃO</p>
+                      <p>@josetavares_</p>
+                      <p>20-27 FEVEREIRO 2022<p>
+                  </div>
+                  <div class="name-2">
+                      <h1>Fragmentos</h1>
+                      <br>
+                      <a class="btn" href="fragmentos.html">Explorar este álbum</a>
+                  </div>
+              </article>
+              <article class="container-comunidade">
+                  <div class="colagem-3">
+                      <img class="img-colagem" src="assets/ultimamente.png">
+                  </div>
+                  <div class="info-3">
+                      <p>DATA DE PUBLICAÇÃO</p>
+                      <p>@susanasantos</p>
+                      <p>JUNHO 2023<p>
+                  </div>
+                  <div class="name-3">
+                      <h1>Ultimamente</h1>
+                      <br>
+                      <a class="btn" href="ultimamente.html">Explorar este álbum</a>
+                  </div>
+              </article>
+              <article class="container-comunidade">
+                  <div class="colagem-4">
+                      <img class="img-colagem" src="assets/eterno.png">
+                  </div>
+                  <div class="info-4">
+                      <p>DATA DE PUBLICAÇÃO</p>
+                      <p>@inesserafim</p>
+                      <p>ANUAL 2022<p>
+                  </div>
+                  <div class="name-4">
+                      <h1>Eterno</h1>
+                      <br>
+                      <a class="btn" href="eterno.html">Explorar este álbum</a>
+                  </div>
+              </article>
+            </section>
+        </div>
+        
+
+      <footer>
+        <div class="left">
+          <a href="."><img src="assets/logo.png"></a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <br>
+          <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest-p fa-xl"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter fa-xl"></i></a>
+        </div>
+
+        <div class="right form">
+            <p class="title">Subscreve a nossa newsletter para estar a par de todas as novidades!</p>
+
+            <form>
+                <input type="text" placeholder="Escreve o teu e-mail" name="email">
+                
+                <ul class="errors"></ul>
+
+                <br>
+
+                <button type="submit" class="btn">Subscrever</button>
+            </form>
+      
+        </div>
+        <div class="credit">
+          <p class="copy">&copy; 2023 Inês Santos & Susana Ramos. All Rights Reserved</p>
+        </div>
+        
+      </footer>
+      <script src="scripts/app.js"></script>
+
+    </body>
+  </html>

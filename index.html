@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Site Glue</title>
+
+      <link rel="stylesheet" href="styles/main.css">
+    </head>
+
+    <body>
+    
+      <div class="menu">
+        <nav class="container-menu">
+          <ul>
+            <li><a href="index.html"><img src="assets/logo.png"></a></li>
+            <li><a class="btn" href="comunidade.html">Comunidade</a></li>
+            <li><a class="btn" href="sobre.html">Sobre</a></li>
+            <li><i class=" fa-solid fa-user fa-2xl button class" onclick="openForm()"></i></li>
+            
+          </ul>
+        
+          <div class="form-popup" id="myForm">
+            <form class="form-container">
+              <i class="end fa-solid fa-xmark fa-2xl" onclick="closeForm()"></i>
+              <i class=" fa-solid fa-user fa-2xl"></i>
+              <h1>Login</h1>
+              
+              
+              <div class="email">
+              <label for="email" ><b>Email</b></label>
+              <input  type="text" placeholder="Escreve o teu E-mail" name="email" required>
+            </div>
+          <div class="pass">
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Escreve a tua Password" name="psw" required>
+            </div>
+              <button type="submit" class="btn">Iniciar Sessão</button>
+              
+            </form>
+          </div>
+          </div>
+        </nav>
+        
+      
+
+      <header>
+        <div class="container-index">
+          <div class="item-split1">
+            <h1 class="center text-center">Cola tudo o que </br>alguma vez criaste</h1>
+            <a class="btn center" href="#app">Começa agora a tua viagem para o futuro</a>
+          </div>
+          <div class="item-split2 center">
+            <video controls autoplay loop>
+              <source src="assets/stopmotion.mp4" type="video/mp4">
+            </video> 
+          </div>
+        </div>
+      </header>
+
+      <section>
+        <h1 class="item-title center">O QUE PODES GUARDAR PARA O FUTURO</h1>
+        <div class="container-index">
+          <div class="item1 ">
+            <div class="circular" ><img class="center" src="assets/caderno.png"></div>
+            <p class="feature center  text-center">Escreve o que tiveres </br>na mente</p>
+          </div>
+          <div class="item2">
+            <div class="circular" ><img class="center" src="assets/camera.png"></div>
+            <p class="feature center text-center">Fotografa os momentos</br> mais felizes</p>
+          </div>
+          <div class="item3">
+            <div class="circular" ><img class="center" src="assets/fone.png"></div>
+            <p class="feature center text-center">Capta uma mensagem </br>falada ou música</p>
+          </div>
+          <div class="item4">
+            <div class="circular" ><img class="center" src="assets/cassete.png"></div>
+            <p class="feature center text-center">Filma o teu dia a dia</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-index">
+        <h1 class="center review-title">REVIEWS</h1>
+        <div class="review1 feature"> 
+          <p>Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.</p>
+          <h5>Frankie, Virtual Assistant</h5>
+        </div>
+
+        <div class="review2 feature"> 
+          <p>Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.</p>
+          <h5>Devin, Virtual Assistant</h5>
+        </div>
+
+        <div class="review3 feature"> 
+          <p>Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.</p>
+          <h5>Marie, Virtual Assistant</h5>
+        </div>
+
+        <div class="review4 feature"> 
+          <p>Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.</p>
+          <h5>Marie, Virtual Assistant</h5>
+        </div>
+
+      </section>
+
+      <section id="app" class="container-index">
+        <div class="item-split3 center">
+          <img src="assets/app_sem_fundo.png">
+        </div>
+        <div class="item-split4">
+          <h5>ATRAVÉS DA APP GLUE</h5>
+          <h1>Coleciona as </br>tuas memórias</h1>
+          <a class="btn2" href="#" title="AppStore" class="">
+            <i class="fa-brands fa-app-store-ios fa-2xl"></i> Disponível na <b>AppStore</b>
+          </a>
+          <a class="btn2" href="#" title="PlayStore" class="">
+            <i class="fa-brands fa-google-play fa-xl"></i> Disponível na <b>Play Store</b>
+          </a>
+        </div>
+      </section>
+      
+      <footer>
+        <div class="left">
+          <a href="."><img src="assets/logo.png"></a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+          <br>
+          <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest-p fa-xl"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter fa-xl"></i></a>
+        </div>
+
+        <div class="right form">
+            <p class="title">Subscreve a nossa newsletter para estar a par de todas as novidades!</p>
+
+            <form>
+                <input type="text" placeholder="Escreve o teu e-mail" name="email">
+                
+                <ul class="errors"></ul>
+
+                <br>
+
+                <button type="submit" class="btn">Subscrever</button>
+            </form>
+      
+        </div>
+        <div class="credit">
+          <p class="copy">&copy; 2023 Inês Santos & Susana Ramos. All Rights Reserved</p>
+        </div>
+        
+      </footer>
+      <script src="scripts/app.js"></script>
+    </body>
+    </html>

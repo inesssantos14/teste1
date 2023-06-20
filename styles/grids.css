@@ -1,0 +1,254 @@
+.container-index{
+    margin: 6rem; 
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "cola cola stopmotion stopmotion"
+      "f-title f-title f-title f-title"
+      "f1 f2 f3 f4"
+      "r_title r_title r_title r_title"
+      "r1 r2 r3 r4"
+      "app app coleciona coleciona";
+}
+
+.item-split1 {
+    grid-area: cola;
+  }
+
+.item-split2{
+    grid-area: stopmotion;
+  }
+  .item-b {
+    grid-area: main;
+  }
+  .item-c {
+    grid-area: sidebar;
+  }
+  .item-d {
+    grid-area: footer;
+  }
+
+.item-title{
+    grid-area: f-title;
+}
+
+.item1{
+    grid-area: f1
+}
+
+.item2{
+    grid-area: f2
+}
+
+.item3{
+    grid-area: f3
+}
+
+.item4{
+    grid-area: f4
+}
+
+.review-title{
+    grid-area: r_title;
+}
+
+.review1 {
+    grid-area: r1;
+    padding: 2.5rem;
+}
+
+.review2 {
+   grid-area: r2;
+   padding: 2.5rem;
+}
+
+.review3 {
+    grid-area: r3;
+    padding: 2.5rem;
+}
+.review4 {
+    grid-area: r4;
+    padding: 2.5rem;
+}
+
+.item-split3 {
+    grid-area: app;
+}
+
+.item-split4 {
+    grid-area: coleciona;
+    margin-left: 75px;
+}
+
+.item-split4 h1{
+    margin: 35px 0 35px 0;
+}
+
+.item-split1 a{
+    margin-top: 25px;
+}
+
+
+.container-album{
+    margin: 6rem; 
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "title title title title title title"
+      "alb alb alb car car car"
+      "out out out out out out"
+      "alb1 alb1 alb2 alb2 alb3 alb3";
+}
+
+.album-title {
+    grid-area: title;
+  }
+
+.album {
+    grid-area: alb;
+}
+
+.car {
+    grid-area: car;
+}
+
+.music {
+    grid-area: music;
+}
+
+.data {
+    grid-area: date;
+}
+
+.outros-title {
+    grid-area: out;
+}
+
+.album1 {
+    grid-area: alb1;
+}
+
+.album2 {
+    grid-area: alb2;
+}
+
+.album3 {
+    grid-area: alb3;
+}
+
+
+.container-comunidade{
+    margin: 6rem; 
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "page page page"
+      "page page page"
+      "colagem1 info1 name1"
+      "colagem2 info2 name2"
+      "colagem3 info3 name3"
+      "colagem4 info4 name4";
+}
+
+.page-title {
+    grid-area: page;
+}
+
+.colagem-1 {
+    grid-area: colagem1;
+}
+
+.colagem-2 {
+    grid-area: colagem2;
+}
+
+.colagem-3 {
+    grid-area: colagem3;
+}
+
+.colagem-4 {
+    grid-area: colagem4;
+}
+
+.info-1 {
+    grid-area: info1;
+}
+
+.info-2 {
+    grid-area: info2;
+}
+
+.info-3 {
+    grid-area: info3;
+}
+
+.info-4 {
+    grid-area: info4;
+}
+
+.name-1 {
+    grid-area: name1;
+}
+
+.name-2 {
+    grid-area: name2;
+}
+
+.name-3 {
+    grid-area: name3;
+}
+
+.name-4 {
+    grid-area: name4;
+}
+
+
+.container-sobre{
+    margin: 6rem; 
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "who tape"
+      "time brandkit"
+      "questions envelope";
+}
+
+.quem-somos {
+    grid-area: who;
+}
+
+.tape {
+    grid-area: tape;
+}
+
+.timeline {
+    grid-area: time;
+}
+
+.brandkit {
+    grid-area: brandkit;
+}
+
+.questions {
+    grid-area: questions;
+}
+
+.envelope {
+    grid-area: envelope;
+}

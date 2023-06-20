@@ -1,0 +1,72 @@
+.btn {
+    background: linear-gradient(
+        55deg, 
+        var(--pink-gradient2) 25%, 
+        var(--green-gradient)
+    );
+    height: 3.125rem;
+    border-radius: 9999px;
+    font-size: 0.8rem !important;
+    font: 1.125rem Nunito, sans-serif;
+    padding: 1rem;
+    min-width: 170px;
+    max-width:fit-content;
+    text-align: center;
+    display: inline-block;
+    color: var(--black);
+    text-transform: uppercase;
+    font-weight: 600;
+    overflow: hidden;
+    cursor: pointer;
+    transition: filter 0.3s;
+    border: 0 !important;
+    margin: auto;
+}
+
+.btn:hover {
+    text-decoration: none;
+    filter: brightness(0.8);
+    text-decoration: none;
+    background: var(--black);
+    color: var(--white) !important;
+}
+
+.btn.placed{
+    background: var(--black);
+    color: var(--white);
+}
+
+.btn2{
+    background: var(--black);
+    height: 3.25rem;
+    border-radius: 50px;
+    font-size: 0.9rem !important;
+    font: 1.125rem Nunito, sans-serif;
+    padding: 1rem;
+    min-width: 170px;
+    max-width:fit-content;
+    text-align: center;
+    display: inline-block;
+    color: var(--white);
+    overflow: hidden;
+    cursor: pointer;
+    transition: filter 0.3s;
+    border: 0 !important;
+    margin: auto;
+}
+.btn2:hover {
+    text-decoration: none;
+    filter: brightness(0.8);
+    text-decoration: none;
+    background: linear-gradient(
+        55deg, 
+        var(--pink-gradient2) 25%, 
+        var(--green-gradient)
+    );
+    color: var(--black);;
+}
+
+
+.text-center {
+    text-align: center;
+}

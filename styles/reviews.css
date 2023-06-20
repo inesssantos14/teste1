@@ -1,0 +1,11 @@
+.review1 h5, .review2 h5, .review3 h5, .review4 h5{
+    margin-top: 20px;
+    text-align: justify;
+    color: var(--soft-grey);
+    padding-left: 8px;
+}
+
+.review1.feature p, .review2.feature p, .review3.feature p, .review4.feature p{
+    padding: 10px;
+    color: var(--soft-grey);
+}
