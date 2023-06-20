@@ -2,7 +2,7 @@
     background: linear-gradient(
         55deg, 
         var(--pink-gradient2) 25%, 
-        var(--green-gradient)
+        var(--pink-gradient1)
     );
     height: 3.125rem;
     border-radius: 9999px;
