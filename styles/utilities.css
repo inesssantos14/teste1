@@ -1,4 +1,4 @@
-.btn {
+.bt {
     background: linear-gradient(
         55deg, 
         var(--pink-gradient2) 25%, 
@@ -23,7 +23,7 @@
     margin: auto;
 }
 
-.btn:hover {
+.bt:hover {
     text-decoration: none;
     filter: brightness(0.8);
     text-decoration: none;
@@ -31,7 +31,7 @@
     color: var(--white) !important;
 }
 
-.btn.placed{
+.bt.placed{
     background: var(--black);
     color: var(--white);
 }
