@@ -1,4 +1,4 @@
-.btn {
+.bt {
     background: linear-gradient(
         55deg, 
         var(--pink-gradient2) 25%, 
@@ -15,7 +15,7 @@
     display: inline-block;
     color: var(--black);
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
     overflow: hidden;
     cursor: pointer;
     transition: filter 0.3s;
@@ -23,7 +23,7 @@
     margin: auto;
 }
 
-.btn:hover {
+.bt:hover {
     text-decoration: none;
     filter: brightness(0.8);
     text-decoration: none;
@@ -31,7 +31,7 @@
     color: var(--white) !important;
 }
 
-.btn.placed{
+.bt.placed{
     background: var(--black);
     color: var(--white);
 }
